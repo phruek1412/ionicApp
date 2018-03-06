@@ -110,7 +110,7 @@ var AboutPage = (function () {
     };
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"/Users/phruek.kos/Workspace/ionicApp/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <button (click)=\'callBack();\'>\n    Go back2\n  </button>\n</ion-content>\n'/*ion-inline-end:"/Users/phruek.kos/Workspace/ionicApp/src/pages/about/about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"/Users/phruek.kos/Workspace/ionicApp/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <button ion-button round (click)=\'callBack();\'>\n    Go back\n  </button>\n</ion-content>\n'/*ion-inline-end:"/Users/phruek.kos/Workspace/ionicApp/src/pages/about/about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_broadcaster__["a" /* Broadcaster */]])
     ], AboutPage);
