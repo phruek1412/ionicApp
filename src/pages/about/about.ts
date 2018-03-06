@@ -17,7 +17,7 @@ export class AboutPage {
     // this.broadcaster.fireNativeEvent("test.event",{item:'test data'},function(){
 
     // });
-    this.broadcaster.fireNativeEvent('eventName', {item:'test data'});
+    this.broadcaster.fireNativeEvent('eventName', {item:'test data'}).then(()=>console.log('success'));
     // this.broadcaster.fireNativeEvent( "test.event", { item:'test data' }, function() {
     //   console.log( "event fired!" );
     //   } );
